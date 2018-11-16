@@ -15,5 +15,5 @@ function currentLine(line) {
     str += ` ${i+1}. ${line[i]},`
   }
   
-  return str;
+  return str.slice(0, -1);
 }
