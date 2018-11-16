@@ -14,4 +14,5 @@ function currentLine(line) {
   for(let i = 0; i < line.length; i++) {
     str += ` ${i+1} ${line[i]},`
   }
+  return str;
 }
